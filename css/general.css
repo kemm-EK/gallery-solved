@@ -48,6 +48,8 @@ nav a {
   font-family: abel;
 }
 footer {
+  display: flex;
+  justify-content: space-between;
   background-color: #333;
   height: 3rem;
   margin: 1rem 0;
@@ -58,5 +60,11 @@ footer {
     font-family: nunito;
     font-size: 0.8em;
     font-weight: 200;
+  }
+  a {
+    color: #e1dede;
+  }
+  a:hover {
+    color: #f5f4f4;
   }
 }
