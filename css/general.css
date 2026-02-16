@@ -50,9 +50,10 @@ nav a {
 footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   background-color: #333;
-  height: 3rem;
-  margin: 1rem 0;
+  height: max-content;
+  margin: 1rem 0 0 0;
   margin-top: auto;
   padding: 1em;
   p {
