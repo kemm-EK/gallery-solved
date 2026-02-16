@@ -15,6 +15,7 @@
   height: calc(var(--minsize) * 0.6);
   box-shadow: 2px 2px 3px rgba(86, 85, 85, 0.4);
   border: 1px solid #333;
+  overflow: hidden;
 }
 
 .gallery-item img {
@@ -30,8 +31,7 @@
   opacity: 1;
   filter: brightness(1) grayscale(0);
   transition: all 0.8s;
-  border-radius: 5px;
-  scale: 1.03;
+  scale: 1.06;
 }
 
 @media (width <= 600px) {
